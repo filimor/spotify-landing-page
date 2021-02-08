@@ -1,0 +1,203 @@
+body {
+  background-color: #fafafa;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 780px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.main-section {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content-left {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../img/phone-cover.png');
+  background-repeat: no-repeat;
+  background-size: 455px;
+  background-position: center;
+}
+
+.content-left img {
+  position: relative;
+  left: 2.7rem;
+  top: 0.2rem;
+}
+
+.content-right {
+  width: 340px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-right a {
+  display: block;
+}
+
+.box {
+  width: 90%;
+  padding: 10px;
+  justify-content: center;
+  border: 1px solid #dbdbdb;;
+  background-color: white;
+}
+
+.box-login {
+  height: 376px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../img/logo.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position-y: 1.5rem;
+}
+
+.user-input {
+  width: 80%;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.user-input input {
+  border: 1px solid #dbdbdb;;
+  background-color: #fafafa;
+  padding: 0.6rem;
+  margin: 0.2rem 0;
+  border-radius: 3px;
+  font-size: 11px;
+}
+
+.button-login {
+  margin: 0.8rem 0;
+  border-radius: 5px;
+  background-color: #0095f6;
+  color: #fafafa;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 5px;
+  text-align: center;
+}
+
+.separator {
+  font-weight: bold;
+  position: relative;
+  top: 0.7rem;
+  color: #dbdbdb;
+  background-color: white;
+  padding: 0 1rem;
+}
+
+.alternative-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 65px;
+  border-top: 1px solid #dbdbdb;
+  margin-top: -1rem;
+}
+
+.alternative-login a {
+  color: #385185;
+}
+
+.alternative-login a:nth-child(1) {
+  background: url(../img/facebook-logo.png);
+  background-repeat: no-repeat;
+  font-weight: bolder;
+  margin-top: 4rem;
+  padding-left: 20px;
+}
+
+.alternative-login a:nth-child(2) {
+  font-size: 12px;
+  margin-top: 1rem;
+}
+
+.box-signup {
+  margin-top: 1rem;
+  display: flex;
+}
+
+.box-signup a {
+  display: inline;
+  color: #0095f6;
+}
+
+.get-app {
+  text-align: center;
+  width: 100%;
+}
+
+.get-app-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 45px;
+}
+
+.get-app-buttons img {
+  width: 135px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 12px;
+  color: #b5b5b5;
+  line-height: 6px;
+}
+
+.footer a {
+  color: #b5b5b5;
+  padding: 0.5rem 0.6rem;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-info select {
+  margin:  1rem 1.5rem;
+  border: none;
+  color: #b5b5b5;
+  background-color: #fafafa;
+}
+
+@media (max-width: 960px) {
+  .wrapper {
+    width: 328px;
+  }
+
+  .content-left {
+    display: none;
+  }
+}
