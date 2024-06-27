@@ -1,7 +1,7 @@
 {
   "devDependencies": {
-    "cssnano": "^4.1.10",
-    "postcss": "^8.2.4",
+    "cssnano": "^7.0.3",
+    "postcss": "^8.4.31",
     "postcss-cli": "^8.3.1",
     "postcss-cssnext": "^3.1.0"
   }
